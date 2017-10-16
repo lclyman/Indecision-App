@@ -1,0 +1,25 @@
+{
+    "extends": "standard",
+
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": 0,
+        "no-extra-boolean-cast": 0,
+        "wrap-iife": 0,
+        "no-proto": 0,
+        "no-unused-vars": 0,
+        "no-undef": 0
+    },
+
+    "globals": {
+        "alert": true,
+        "ReactDOM": true,
+        "React": true
+    }
+}
